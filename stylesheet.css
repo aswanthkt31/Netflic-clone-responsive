@@ -1,0 +1,176 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white !important;
+    background-color: black !important;
+    font-family: "Poppins", sans-serif;
+}
+
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/Bglarge.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;   
+}
+.logo img{
+    height: 5rem;
+}
+.dropdown.btn{
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+.right-side{
+    display: flex;
+    justify-content: end;
+}
+
+/* Main heading and inputed */
+.main{
+    margin-top: 5%; 
+}
+.main-head h1{
+    font-weight: 900;
+    font-size: 3rem;
+    text-wrap: wrap;
+}
+.form-getStrted input{
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+} 
+.input-attributes{
+    height: 3rem;
+    width: 45%;
+}
+.form-getStrted .btn{
+    height: 3rem;
+    width: 10rem;
+    padding: 0.6em;
+}
+.form-getStrted input::placeholder{
+    color: rgba(255, 255, 255, 0.636);
+}
+
+/* card */
+.card-container{
+    display: flex;
+    overflow: hidden;
+    padding: 1rem 8rem;
+}
+.cards{
+    margin: 0 2rem;
+    position: relative;
+    transition: 1s;
+}
+.cards:hover{
+    transform: scale(1.1, 1.1);
+}
+.top-no{
+    position: absolute;
+    bottom: -1.5rem;
+    left: -0.5rem;
+    font-size: 7rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255); 
+}
+.top-no:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.1s;
+}
+.top-no::before{
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    left: -1.5rem;
+    font-size: 7rem;
+    font-weight: 800;
+    color: white;
+    
+}
+.back-icon{
+    position: relative;
+    height: 15px;
+    z-index: 3;
+
+}
+.back-icon img{
+    height: 2rem;
+    position: absolute;
+    top: 8rem;
+    left: 7rem;
+    background: rgba(255, 255, 255, 0.234);
+}
+.next-icon{
+    position: relative;
+    z-index: 3;
+}
+.next-icon img{
+    height: 3rem;
+    position: absolute;
+    top: -11rem;
+    right: 7rem;
+    background: rgba(255, 255, 255, 0.234);
+}
+
+/* More resons to join part */
+.card-moreResons{
+    background: linear-gradient(to bottom right, rgb(163, 144, 238),rgb(221, 156, 218));
+    width: 18rem;
+    height: 16rem;
+}
+.four-icons{
+    height: 5rem;
+    margin-left: 3rem;
+    object-fit: contain;
+}
+
+/* Question Section */
+.q-bar{
+    height: 5rem;
+    background-color: rgba(71, 68, 68, 0.605);
+    
+}
+.q-bar:hover{
+    background-color: rgb(71, 68, 68);
+}
+
+/* 2nd input email */
+.form-getStrted-two input{
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+} 
+/* .input-attributes{
+    height: 4rem;
+    width: 35rem;
+} */
+.form-getStrted-two .btn{
+    height: 4rem;
+    width: 10rem;
+    padding: 1.2em;
+}
+.form-getStrted-two input::placeholder{
+    color: rgba(255, 255, 255, 0.636);
+    padding: 1em;
+}
+
+/* Footer */
+.links li{
+    list-style: none;
+    line-height: 2rem;
+}
+.links li a{
+    text-decoration: none;
+    color: rgb(164, 164, 171);
+    
+}
